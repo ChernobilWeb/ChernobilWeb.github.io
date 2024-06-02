@@ -1,0 +1,159 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+@media (min-width: 901px) {
+.Tablet {
+display: none;
+}
+.PC {
+background: #9c9c9c;
+}
+.PC header {
+height: 700px;
+background-image: url(./fondo.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+border-bottom: 6px dashed #E8C39E;
+padding: 0px;
+margin: 0px;
+text-align: center;
+line-height: 300px;
+color: orange;
+font-family: cooper;
+font-size: 50px;
+}
+.PC nav {
+height: 100px;
+background: #E8C39E;
+border-bottom: 6px dashed #9c9c9c;
+text-align: center;
+font-family: cooper;
+font-size: 30px;
+line-height: 50px;
+}
+.PC section {
+font-family: arial black;
+border-bottom: 6px dashed #E8C39E;
+}
+.PC section h1 {
+margin-top: 15px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 40px;
+}
+.PC section h4 {
+margin-left: 10px;
+margin-bottom: 60px;
+font-size: 23px;
+text-align: center;
+}
+.PC section .h4 {
+margin-left: 10px;
+margin-bottom: 150px;
+font-size: 23px;
+text-align: center;
+}
+.PC section img {
+width: 50%;
+margin-left: 25%;
+margin-bottom: 50px;
+}
+.PC section p {
+margin-left: 10px;
+font-size: 23px;
+text-align: center
+}
+.PC section .p {
+margin-bottom: 60px;
+font-size: 23px;
+text-align: center
+}
+.PC section .r {
+width: 75%;
+margin-left: calc(25% / 2);
+margin-bottom: 50px;
+}
+.PC footer {
+background: #E8C39E;
+color: #9c9c9c;
+text-align: center;
+height: 100px;
+padding: 20px;
+font-family: arial black;
+font-size: 28px;
+}
+}
+@media (max-width: 900px) {
+.PC {
+display: none;
+}
+.Tablet {
+background: #9c9c9c;
+}
+.Tablet header {
+height: 500px;
+background-image: url(./fondo.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+border-bottom: 6px dashed #E8C39E;
+padding: 0px;
+margin: 0px;
+text-align: center;
+line-height: 300px;
+color: orange;
+font-family: cooper;
+font-size: 20px;
+}
+.Tablet nav {
+height: 50px;
+background: #E8C39E;
+border-bottom: 6px dashed #9c9c9c;
+text-align: center;
+font-family: cooper;
+font-size: 15px;
+line-height: 20px;
+}
+.Tablet section {
+font-family: arial black;
+border-bottom: 6px dashed #E8C39E;
+}
+.Tablet section h1 {
+margin-top: 15px;
+margin-bottom: 10px;
+text-align: center;
+}
+.Tablet section h4 {
+margin-left: 10px;
+margin-bottom: 60px;
+}
+.Tablet section img {
+width: 50%;
+margin-left: 25%;
+margin-bottom: 50px;
+}
+.Tablet section p {
+font-size: 15px;
+margin-left: 10px;
+}
+.Tablet section .p {
+margin-bottom: 60px;
+}
+.Tablet section .r {
+width: 75%;
+margin-left: calc(25% / 2);
+margin-bottom: 50px;
+}
+.Tablet footer {
+background: #E8C39E;
+color: #9c9c9c;
+text-align: center;
+height: 100px;
+padding: 20px;
+font-family: arial black;
+}
+}
